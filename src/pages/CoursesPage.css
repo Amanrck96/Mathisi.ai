@@ -1,0 +1,91 @@
+.courses-page .section-header {
+  margin-bottom: 4rem;
+}
+
+.courses-search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.search-input input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  width: 100%;
+}
+
+.filter-btns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn-filter {
+  background: var(--glass-border);
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-filter:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+}
+
+.filter-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  cursor: pointer;
+  border-left: 1px solid var(--glass-border);
+  padding-left: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.career-assistance {
+  margin-top: 6rem;
+  padding: 4rem;
+  text-align: center;
+}
+
+.ca-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.ca-content h2 {
+  font-size: 2rem;
+}
+
+.ca-content p {
+  color: var(--text-secondary);
+  max-width: 600px;
+}
+
+@media (max-width: 1024px) {
+  .courses-search-bar {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
